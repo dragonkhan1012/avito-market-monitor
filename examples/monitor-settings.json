@@ -1,0 +1,10 @@
+{
+  "min_analogs": 5,
+  "deal_discount": 0.15,
+  "deal_min_saving": 3000,
+  "market_max_age_days": 7,
+  "watch_pages": 1,
+  "details_per_cycle": 2,
+  "export_interval": 900,
+  "alert_sellers": "private"
+}

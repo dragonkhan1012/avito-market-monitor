@@ -1,0 +1,47 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+firewall-debug.log
+firewall-debug-responses/
+
+*.har
+
+# Search results and the registry of seen listings (real ads, not for git)
+output/
+data/
+
+.DS_Store
+
+# Local secrets, profiles, results and project snapshots
+.env
+.env.*
+!.env.example
+proxies.txt
+backups/
+Backups/
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.db
+*.log
+*.xlsx
+*.zip
+*.pem
+*.key
+cookies*.json
+*session*.json
+/searches/*.json
+
+# Captured site code and browser/network diagnostics stay on this computer
+/bootstrap.*.js
+/f1b0f8f3fb96fe30a8e6.js
+/manifest.json
+/geetest_load_response.json
+/qrator-*.json
+/qrator-*.txt
+/qrator-deobfuscated/
+/*-ANALYSIS.md
+/QRATOR-FIELD-MATRIX.md

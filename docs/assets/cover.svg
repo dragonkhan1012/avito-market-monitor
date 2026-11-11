@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="title desc">
+  <title id="title">Avito Market Monitor</title>
+  <desc id="desc">Мониторинг объявлений, история цен, Excel и Telegram. Иллюстрация графика наблюдений.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0c1525"/><stop offset="1" stop-color="#183347"/></linearGradient><linearGradient id="line"><stop stop-color="#4fe0bd"/><stop offset="1" stop-color="#70b9ff"/></linearGradient></defs>
+  <rect width="1280" height="440" rx="24" fill="url(#bg)"/>
+  <circle cx="1180" cy="20" r="230" fill="#4fe0bd" opacity=".035"/>
+  <circle cx="920" cy="410" r="220" fill="#70b9ff" opacity=".035"/>
+  <g font-family="Arial,Helvetica,sans-serif">
+    <rect x="58" y="53" width="228" height="29" rx="14" fill="#284849"/>
+    <circle cx="76" cy="67" r="4" fill="#4fe0bd"/>
+    <text x="91" y="72" fill="#baf5e7" font-size="12" letter-spacing="2">ЛИЧНЫЙ МОНИТОРИНГ</text>
+    <text x="57" y="157" fill="#f6f8fc" font-size="54" font-weight="700" letter-spacing="-2">Avito Market Monitor</text>
+    <text x="60" y="208" fill="#b6c8da" font-size="22">Наблюдайте за рынком. Сохраняйте историю.</text>
+    <text x="60" y="242" fill="#b6c8da" font-size="22">Сравнивайте сопоставимые предложения.</text>
+    <g fill="#e0edf5" font-size="14">
+      <rect x="60" y="296" width="118" height="39" rx="10" fill="#294151"/><text x="79" y="321">История цен</text>
+      <rect x="190" y="296" width="97" height="39" rx="10" fill="#294151"/><text x="211" y="321">SQLite</text>
+      <rect x="299" y="296" width="88" height="39" rx="10" fill="#294151"/><text x="322" y="321">Excel</text>
+      <rect x="399" y="296" width="116" height="39" rx="10" fill="#294151"/><text x="420" y="321">Telegram</text>
+    </g>
+    <text x="60" y="391" fill="#7d9bb1" font-size="13" letter-spacing="1">ПОИСК → АНАЛИЗ → ОТЧЁТ → УВЕДОМЛЕНИЯ</text>
+  </g>
+  <g transform="translate(840 108)">
+    <rect width="362" height="248" rx="18" fill="#122738" stroke="#365468"/>
+    <g stroke="#294555"><path d="M29 63H333M29 112H333M29 161H333M29 210H333"/><path d="M77 48V211M141 48V211M205 48V211M269 48V211"/></g>
+    <path d="M31 150L74 130L117 143L160 89L203 111L246 74L289 93L331 54" fill="none" stroke="url(#line)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="203" cy="111" r="8" fill="#4fe0bd" stroke="#122738" stroke-width="4"/>
+    <g transform="translate(48 187)"><rect width="240" height="34" rx="8" fill="#214c47"/><text x="14" y="22" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#baf5e7">Данные сохраняются локально</text></g>
+  </g>
+</svg>

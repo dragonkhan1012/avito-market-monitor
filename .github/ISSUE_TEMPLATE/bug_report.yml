@@ -1,0 +1,33 @@
+name: Ошибка
+description: Сообщить о проблеме запуска, мониторинга или отчёта
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Не прикладывайте токены Telegram, cookies, HAR, базы объявлений и личные конфигурации."
+  - type: input
+    id: environment
+    attributes:
+      label: Система и версия Python
+      placeholder: "macOS / Windows / Linux, Python 3.11.x"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Как повторить
+      description: Укажите команду или пункты меню без секретов и персональных данных.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Ожидаемый и фактический результат
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Текст ошибки
+      description: Только очищенный фрагмент лога.
+      render: text
